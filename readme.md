@@ -1,0 +1,6 @@
+- [ ] Resposividade Mobile;
+- [ ] Carroussel Mobile;
+- [ ] Estilo card-roupa;
+- [ ] Redes sociais do time;
+- [ ] Barra de pesquisa transparente;
+- [ ] Cadrastrar tranparente;

@@ -68,7 +68,6 @@ main{
     z-index: 10;
   }
   
-
   .carousel-item {
     height: 32rem;
   }
@@ -80,10 +79,8 @@ main{
     height: 32rem;
   }
   
-  
   /* MARKETING CONTENT */
   
-
   .marketing .col-lg-4 {
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
@@ -98,7 +95,6 @@ main{
     margin-left: .75rem;
   }
 
-  
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   }
@@ -111,7 +107,29 @@ main{
     letter-spacing: -.05rem;
   }
   
+  .card-img-top {
+    height: 550px; /* height of container */
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .divisor{
+    border: 2px solid var(--base-light);
+    background-color: var(--base-light);
+    width: 80%;
+    height: 1px;
+    border-radius: 2rem;
+    display: block
+  }
+
+  .form-control::placeholder{
+    color: white;
+  }
   
+  .descicao{
+    min-height: 50px;
+  }
+
   /* RESPONSIVE CSS */
   
   @media (min-width: 576px) {
